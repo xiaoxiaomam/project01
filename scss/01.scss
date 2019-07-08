@@ -1,0 +1,10 @@
+.h1{
+    width:2px;height:2px;
+}
+@mixin my_bg(){
+    height:200px;
+}
+.hwJ{@include my_bg();}
+
+.hw{@include my_bg();}
+
